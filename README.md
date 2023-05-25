@@ -42,7 +42,7 @@ project_directory
 ## Использование фикстур через return и ее передача в тест в качестве аргумента:
 Начнем с простого примера:
 	
-	  ```
+ ```
 
 import sqlite3
 import pytest
@@ -56,12 +56,14 @@ def connect_database():
     print("Соединение с БД установлено")
 
     # Возвращение соединения с БД
-    return connection
-		
+    return connection		
 
-```
+ ```
+	
 `Скачать test.db`
 	https://www.dropbox.com/s/wyvuvyh6dd4scd2/test.db?dl=1
+	
+	
 `Важно: в строчке connect('test.db') нужно указать абсолютный путь к test.db
 Например мой: sqlite3.connect("/Users/manikosto/AquaProjects/PytestIntensive/lesson5/test.db")`
 	
