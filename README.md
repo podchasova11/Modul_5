@@ -9,17 +9,7 @@
 
 Возьмем, к примеру, базовую структуру PageObject:
 
-  ```
-
-project_directory
-  |-----pages
-        |-----example_page.py
-  |-----tests
-        |-----test_example.py
-  |-----conftest.py
-		
-
-```	
+	
 
 </details>
 <details>
