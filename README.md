@@ -45,7 +45,8 @@ project_directory
 	
  ```
 
-
+import sqlite3
+import pytest
 
 
 def connect_database():
